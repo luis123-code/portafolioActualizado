@@ -11,6 +11,10 @@ export default defineConfig({
       spa: {
         enabled: true,
       },
+      prerender: {
+        enabled: true,
+        crawlLinks: true,
+      },
     }),
     nitroV2Plugin({ preset: "vercel" }),
     tailwindcss(),
