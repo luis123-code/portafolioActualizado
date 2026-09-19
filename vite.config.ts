@@ -8,9 +8,11 @@ export default defineConfig({
   plugins: [
     tanstackStart({
       server: { entry: "server" },
+      spa: {
+        enabled: true,
+      },
     }),
-
-    nitroV2Plugin({ preset: "node-server" }),
+    nitroV2Plugin({ preset: "vercel" }),
     tailwindcss(),
     viteReact(),
   ],
