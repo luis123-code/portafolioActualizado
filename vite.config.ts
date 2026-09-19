@@ -8,13 +8,6 @@ export default defineConfig({
   plugins: [
     tanstackStart({
       server: { entry: "server" },
-      spa: {
-        enabled: true,
-      },
-      prerender: {
-        enabled: true,
-        crawlLinks: true,
-      },
     }),
     nitroV2Plugin({ preset: "vercel" }),
     tailwindcss(),
