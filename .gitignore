@@ -6,7 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+.vercel
+.output
+.wrangler
+.nitro
+dist
 node_modules
 dist
 dist-ssr
