@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Showcase
 
 Crea un portafolio profesional para un desarrollador frontend, con diseño moderno, minimalista y responsive (mobile-first). Usa una paleta de colores oscura con un color de acento vibrante (azul o verde), tipografía sans-serif limpia (tipo Inter o Poppins), y animaciones fluidas en toda la página (fade-in, slide-up, parallax sutil, hover states con transiciones suaves).
@@ -164,3 +165,6 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+=======
+# portafolioActualizado
+>>>>>>> 31e89a5d33f155c46490d8f559dbf5c927a61771
